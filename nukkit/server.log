@@ -1,0 +1,41 @@
+2017-2-24 16:38:32 [INFO] Welcome! Please choose a language first!
+2017-2-24 16:38:32 [INFO] eng => English
+2017-2-24 16:38:32 [INFO] chs => 中文（简体）
+2017-2-24 16:38:32 [INFO] cht => 中文（繁體）
+2017-2-24 16:38:32 [INFO] jpn => 日本語
+2017-2-24 16:38:32 [INFO] rus => Pyccĸий
+2017-2-24 16:38:32 [INFO] spa => Español
+2017-2-24 16:38:32 [INFO] pol => Polish
+2017-2-24 16:38:32 [INFO] bra => Português-Brasil
+2017-2-24 16:38:32 [INFO] kor => 한국어
+2017-2-24 16:38:32 [INFO] ukr => Українська
+2017-2-24 16:38:32 [INFO] deu => Deutsch
+2017-2-24 16:38:32 [INFO] ltu => Lietuviškai
+2017-2-24 16:38:32 [INFO] idn => Indonesia
+2017-2-24 16:38:35 [INFO] Loading nukkit.yml...
+2017-2-24 16:38:35 [INFO] Loading server properties...
+2017-2-24 16:38:35 [INFO] Selected English (eng) as the base language
+2017-2-24 16:38:35 [INFO] Starting Minecraft: PE server version v1.0.3
+2017-2-24 16:38:36 [INFO] Opening server on 0.0.0.0:19132
+2017-2-24 16:38:36 [INFO] This server is running Nukkit version 1.0dev "蘋果(Apple)派(Pie)" (API 1.0.0)
+2017-2-24 16:38:36 [INFO] Nukkit is distributed under the LGPL License
+2017-2-24 16:38:36 [NOTICE] Level "world" not found
+2017-2-24 16:38:36 [INFO] Preparing level "world"
+2017-2-24 16:38:36 [INFO] Starting GS4 status listener
+2017-2-24 16:38:36 [INFO] Setting query port to 19132
+2017-2-24 16:38:36 [INFO] Query is running on 0.0.0.0:19132
+2017-2-24 16:38:36 [INFO] Default game type: Survival Mode
+2017-2-24 16:38:36 [INFO] Done (4.311s)! For help, type "help" or "?"
+2017-2-24 16:38:39 [INFO] [CONSOLE: Stopping the server]
+2017-2-24 16:38:39 [INFO] Unloading level "world"
+2017-2-24 16:38:39 [ALERT] java.lang.StringIndexOutOfBoundsException: String index out of range: 2
+	at java.lang.AbstractStringBuilder.charAt(AbstractStringBuilder.java:237)
+	at java.lang.StringBuilder.charAt(StringBuilder.java:76)
+	at jline.console.ConsoleReader.wcwidth(ConsoleReader.java:555)
+	at jline.console.ConsoleReader.backspace(ConsoleReader.java:1057)
+	at jline.console.ConsoleReader.backspaceAll(ConsoleReader.java:1043)
+	at jline.console.ConsoleReader.resetPromptLine(ConsoleReader.java:3858)
+	at cn.nukkit.command.CommandReader.unstashLine(CommandReader.java:117)
+	at cn.nukkit.utils.MainLogger.flushBuffer(MainLogger.java:242)
+	at cn.nukkit.utils.MainLogger.run(MainLogger.java:213)
+
